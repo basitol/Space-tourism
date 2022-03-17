@@ -2,25 +2,25 @@ export const menuItem = [
   {
     title: "HOME",
     no: "00",
-    url: "#",
+    url: "/",
     cName: "nav-links",
   },
   {
     title: "DESTINATION",
     no: "01",
-    url: "#",
+    url: "/destination",
     cName: "nav-links",
   },
   {
     title: "CREW",
     no: "02",
-    url: "#",
+    url: "/",
     cName: "nav-links",
   },
   {
     title: "TECHNOLOGY",
     no: "03",
-    url: "#",
+    url: "/",
     cName: "nav-links",
   },
 ];
