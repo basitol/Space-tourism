@@ -1,16 +1,19 @@
 import React from "react";
 import { menuItem } from "../Menu-item/MenuItem";
+import "./Navbar.scss";
+import logo from "../../assets/shared/logo.svg";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="navbarItems">
+      <nav className="navbar flex flex-jc-sb">
         <div className="navbar-logo">
-          <img src="" />
+          <img src={logo} />
         </div>
         <div className="menu-icon"></div>
-        <div>
-          <ul>
+        <div className="line"></div>
+        <div className="navbar--link">
+          <ul className="flex">
             {menuItem.map((item, index) => {
               return (
                 <li key={index}>
@@ -23,7 +26,6 @@ const Navbar = () => {
             })}
           </ul>
         </div>
-        <h2>This is nav</h2>
       </nav>
     </>
   );

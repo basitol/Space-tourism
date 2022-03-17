@@ -2,6 +2,8 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  list-style-type: none;
 }
 
 body {
@@ -38,4 +40,16 @@ h4 {
 h5 {
   font-size: 28px;
   letter-spacing: 4.725px;
+}
+
+.flex {
+  display: flex;
+
+  &-jc-sb {
+    justify-content: space-between;
+  }
+
+  &-jc-sa {
+    justify-content: space-around;
+  }
 }
